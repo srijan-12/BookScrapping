@@ -45,14 +45,8 @@ This project is a web application built with Django to scrape, structure, and an
 
 ### Steps to Run the Project
 
-1. **Clone the Repository**
 
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-
-2. **Set Up Virtual Environment**
+1. **Set Up Virtual Environment**
 
    ```bash
    python -m venv env
@@ -60,11 +54,20 @@ This project is a web application built with Django to scrape, structure, and an
    env\Scripts\activate     # For Windows
    ```
 
+2. **Clone the Repository**
+
+   ```bash
+   git clone [<repository-url>](https://github.com/srijan-12/BookScrapping.git)
+   cd <repository-directory>
+   ```
+
 3. **Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
+   pip install django-extensions
    ```
+   Add 'django_extensions' to INSTALLED_APPS
 
 4. **Set Up Environment Variables**
 
@@ -83,7 +86,7 @@ This project is a web application built with Django to scrape, structure, and an
 6. **Run the Scraper**
 
    ```bash
-   python manage.py runscript scraper
+   python manage.py scrape_data
    ```
 
    This will scrape product data and store it in the database.
