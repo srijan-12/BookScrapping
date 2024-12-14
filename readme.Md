@@ -57,7 +57,7 @@ This project is a web application built with Django to scrape, structure, and an
 2. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/srijan-12/BookScrapping.git
+   git clone "https://github.com/srijan-12/BookScrapping.git"
    cd <repository-directory>
    ```
 
