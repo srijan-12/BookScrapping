@@ -31,7 +31,7 @@ This project is a web application built with Django to scrape, structure, and an
 - **Backend**: Django, Python
 - **Scraping**: BeautifulSoup or Scrapy
 - **Database**: SQLite (can be switched to MySQL/PostgreSQL)
-- **Frontend**: HTML, CSS, TailwindCSS (optional)
+- **Frontend**: HTML, CSS
 - **API**: Groq API
 
 ## Setup Instructions
